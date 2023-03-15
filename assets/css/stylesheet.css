@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+
+   /* ====================HEADING */
+
+   .main .heading {
+    display: flex;
+    padding-top: 120px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   }
+
+   .heading .heading-a {
+    width: 30%;
+    z-index: 10;
+   }
+
+   .heading-a h1 {
+    font-size: 70px;
+   }
+
+   .heading-a h1 span {
+    color: rgb(131, 105, 247);
+   }
+
+   .heading-b img {
+    width: 600px;
+   }
+
+   /* =====================PARTNER */
+
+   .partners {
+    padding-top: 150px;
+    text-align: center;
+   }
+
+   .partner-a {
+    padding-bottom: 50px;
+   }
+
+   .partner-b {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   }
+
+   .filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+   }
+
+   .filters .filter {
+    display: flex;
+   }
+
+   .filter div p {
+    padding-left: 10px;
+   }
+
+   div input {
+    margin: 10px 5px;
+   }
+
+   .filter-a .a input {
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: yellow;
+    padding-left: 10px;
+    outline-style: none;
+   }
+
+   .filter-b .b input {
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: yellow;
+    padding-left: 10px;
+    outline-style: none;
+   }
+
+   .filter-a .a input:hover {
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: yellow;
+    padding-left: 10px;
+    outline-style: none;
+   }
+
+   .filter-b .b input:hover {
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: yellow;
+    padding-left: 10px;
+    outline-style: none;
+   }
+
+   .filter .searchs {
+    display: flex;
+    align-items: stretch;
+    width: 30px;
+   }
+
+   .filter .searchs .search {
+    margin-top: 20px;
+    height: 30px;
+    width: 100%;
+    border-radius: 10px;
+    align-self: center;
+    background-color: yellow;
+   }
+
+   .search i {
+    display: flex;
+    justify-content: center;
+    padding-top: 7px;
+   }
+
+
+
+
